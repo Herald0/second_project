@@ -5,6 +5,8 @@
 Бывает текст _курсивом_, **полужирным** и ~~зачеркнутым~~  
 Вот так выглядит код:
 
-```python
-print(matrix)
+```
+git add --all
+git commit -m "<message>"
+git push -u origin master
 ```
