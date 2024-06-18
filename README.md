@@ -24,5 +24,14 @@ HEAD - файл, указывающий на последний коммит
 3. modified
 4. tracked
 
+```mermaid
+flowchart TD
+	A[untracked] -- git add --> B[staged + tracked];
+	B -- change --> C[modified];
+	C -- git add --> B;
+	B -- git commit --> D[tracked];
+	D -- change --> C;
+```
+
 ---
 Сообщения к коммитам указываются с инфинитивом в начале.
